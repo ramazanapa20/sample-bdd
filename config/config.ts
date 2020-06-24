@@ -25,7 +25,7 @@ export const config: Config = {
 
      SELENIUM_PROMISE_MANAGER: false,
 
-    baseUrl: "https://uat.mtm.video/",
+    baseUrl: "",
 
     capabilities: {
         browserName: "chrome",
