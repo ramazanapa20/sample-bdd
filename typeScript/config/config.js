@@ -4,12 +4,12 @@ const protractor_1 = require("protractor");
 const reporter_1 = require("../support/reporter");
 const jsonReports = process.cwd() + "/reports/json";
 exports.config = {
-    //sauceUser: 'rmzn20',
+    
     /**
      * If the sauceUser and sauceKey are specified, seleniumServerJar will be
      * ignored. The tests will be run remotely using Sauce Labs.
      */
-    //sauceKey: 'e82ed4d4-ee9c-4f31-874e-8b966dc43a13',
+    
     /**
      * If you run your tests on SauceLabs you can specify the region you want to run your tests
      * in via the `sauceRegion` property. Available short handles for regions are:
@@ -19,7 +19,7 @@ exports.config = {
     //sauceRegion: 'us',
     seleniumAddress: "http://127.0.0.1:4444/wd/hub",
     SELENIUM_PROMISE_MANAGER: false,
-    baseUrl: "https://uat.mtm.video/",
+    baseUrl: "",
     capabilities: {
         browserName: "chrome",
         extendedDebugging: true,
